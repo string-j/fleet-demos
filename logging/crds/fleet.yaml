@@ -1,0 +1,10 @@
+defaultNamespace: cattle-logging-system
+
+helm:
+  releaseName: rancher-logging-crd
+  chart: rancher-logging-crd
+  repo: https://charts.rancher.io
+  version: 103.1.0+up4.4.0
+
+labels:
+  app: rancher-monitoring-crd
