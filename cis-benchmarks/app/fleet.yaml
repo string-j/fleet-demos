@@ -1,15 +1,13 @@
-defaultNamespace: cis-operator-system
+# defaultNamespace: cis-operator-system
 
-helm:
-  releaseName: rancher-cis-benchmark
-  chart: rancher-cis-benchmark
-  repo: https://charts.rancher.io
-  version: 5.2.0
+# helm:
+#   releaseName: rancher-cis-benchmark
+#   chart: rancher-cis-benchmark
+#   repo: https://charts.rancher.io
+#   version: 5.2.0
 
-# labels:
-#   app: cis-benchmark
 
-dependsOn:
-  - selector:
-      matchLabels:
-        app: cis-benchmark-crd
+# dependsOn:
+#   - selector:
+#       matchLabels:
+#         app: cis-benchmark-crd
