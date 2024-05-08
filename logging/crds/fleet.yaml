@@ -7,4 +7,4 @@ helm:
   version: 103.1.0+up4.4.0
 
 labels:
-  app: rancher-monitoring-crd
+  app: rancher-logging-crd
