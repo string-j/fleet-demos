@@ -8,8 +8,7 @@ helm:
   #   global:
   #     cattle:
   #       url: https://a8a968782da0a4712bac5b4ba7d2b8bf-1956772023.us-west-1.elb.amazonaws.com
-  valuesFiles:
-    - "https://github.com/olegvorobiov/fleet-demos/blob/master/nv-values.yaml"
+
 
 dependsOn:
   - selector:
