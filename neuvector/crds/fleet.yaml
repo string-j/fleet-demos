@@ -4,7 +4,7 @@ helm:
   releaseName: neuvector-crd
   chart: neuvector-crd
   repo: https://charts.rancher.io
-  version: 103.0.3+up2.7.6
+  version: 104.0.4+up2.8.4
 
 labels:
   app: rancher-neuvector-crd

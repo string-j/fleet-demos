@@ -1,0 +1,4 @@
+global: # required for rancher authentication (https://<Rancher_URL>/)
+  cattle:
+    url: https://34-123-49-217.sslip.io
+    systemDefaultRegistry: registry.rancher.com
