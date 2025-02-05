@@ -18,10 +18,6 @@ helm:
             New_Service_Profile_Baseline: basic
             Scan_Config:
               Auto_Scan: true
-  #   global:
-  #     cattle:
-  #       url: https://a8a968782da0a4712bac5b4ba7d2b8bf-1956772023.us-west-1.elb.amazonaws.com
-
 
 dependsOn:
   - selector:

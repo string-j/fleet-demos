@@ -3,12 +3,14 @@ helm:
   releaseName: rancher-monitoring
   chart: rancher-monitoring
   repo: https://charts.rancher.io
-  version: 103.0.4+up45.31.1
+  version: 104.1.3+up57.0.3
   values:
     global:
       cattle:
         clusterId: '${ index .ClusterLabels "management.cattle.io/cluster-name" }'
         clusterName: '${ index .ClusterLabels "management.cattle.io/cluster-display-name" }'
+        url: https://34-123-49-217.sslip.io
+      systemDefaultRegistry: registry.rancher.com
 
 labels:
   app: rancher-monitoring
