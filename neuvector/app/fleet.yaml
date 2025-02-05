@@ -14,6 +14,8 @@ helm:
         enabled: true
         data:
           sysinitcfg.yaml: | 
+            always_reload: true
+            New_Service_Profile_Baseline: basic
             Scan_Config:
               Auto_Scan: true
   #   global:
