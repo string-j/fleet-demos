@@ -4,7 +4,11 @@ helm:
   chart: neuvector
   repo: https://charts.rancher.io
   version: 104.0.4+up2.8.4
-  # values:
+  values:
+    global: # required for rancher authentication (https://<Rancher_URL>/)
+      cattle:
+      url: https://34-123-49-217.sslip.io
+      systemDefaultRegistry: registry.rancher.com
   #   global:
   #     cattle:
   #       url: https://a8a968782da0a4712bac5b4ba7d2b8bf-1956772023.us-west-1.elb.amazonaws.com
