@@ -7,7 +7,7 @@ helm:
   values:
     global: # required for rancher authentication (https://<Rancher_URL>/)
       cattle:
-        url: https://34-123-49-217.sslip.io
+        url: https://rancher.stringlabs.us
         systemDefaultRegistry: registry.rancher.com
     controller:
       configmap:
